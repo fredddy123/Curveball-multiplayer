@@ -1,0 +1,30 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#canvas {
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+
+#points {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-family: Tahoma;
+}
+
+#i {
+	font-size: 50px;
+	color: green;
+}
+
+#rival {
+	font-size: 30px;
+	color: red;
+}
